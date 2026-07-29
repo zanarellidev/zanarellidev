@@ -21,7 +21,7 @@ Pull requests em projetos de infraestrutura e plataformas distribuídas:
 - [Cilium](https://github.com/cilium/cilium/pull/47568) — liberação de node ID órfão após remapeamento parcial.
 - [Istio](https://github.com/istio/istio/pull/61024) — persistência do backend iptables no CNI.
 
-## Conversas abertas
+## Quer me contatar por algum desses motivos?
 
 - [Tenho uma ideia para compartilhar](https://github.com/zanarellidev/zanarellidev/issues/new?template=idea.yml)
 - [Quero discutir uma dúvida técnica](https://github.com/zanarellidev/zanarellidev/issues/new?template=technical-sparring.yml)
