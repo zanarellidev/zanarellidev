@@ -1,69 +1,61 @@
-<div align="center">
+<img src="./assets/platform-atlas.png" alt="Mapa abstrato de uma plataforma distribuída: serviços, conexões e segurança" width="100%" />
 
 # Raphael Zanarelli
 
-### Staff Software Engineer · Cloud · Security · AI
+### Staff Software Engineer construindo a infraestrutura que deixa o resto do produto acontecer.
 
-Construo plataformas críticas que continuam confiáveis quando escala, falha e muda rápido.
+Eu gosto da camada difícil: plataformas cloud, sistemas distribuídos, segurança e IA aplicada. Meu trabalho é reduzir atrito para quem entrega software — sem transformar velocidade em aposta.
 
-[Portfólio](https://zanarellidev.github.io) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/raphaelzanarelli/) &nbsp;·&nbsp; [GitHub](https://github.com/zanarellidev)
-
-</div>
+[Portfólio](https://zanarellidev.github.io) · [LinkedIn](https://www.linkedin.com/in/raphaelzanarelli/) · [Ver atividade no GitHub](https://github.com/zanarellidev?tab=overview)
 
 <br />
 
-> **Foco atual:** arquitetura cloud-native, engenharia de plataforma, segurança por padrão e sistemas orientados por IA.
-
-## / dashboard
+## No meu radar
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <strong>O que eu construo</strong><br /><br />
-      Sistemas distribuídos e plataformas internas que tornam entregas mais seguras, observáveis e previsíveis.
+    <td width="33%" valign="top">
+      <strong>☁️ Plataforma</strong><br /><br />
+      Kubernetes, automação e experiência de desenvolvimento que tiram complexidade do caminho.
     </td>
-    <td width="50%" valign="top">
-      <strong>Como eu trabalho</strong><br /><br />
-      Decisões pragmáticas, automação onde importa e cuidado com os detalhes que sustentam produção.
+    <td width="33%" valign="top">
+      <strong>🔒 Segurança</strong><br /><br />
+      Controles úteis por padrão: identidade, políticas e supply chain sem burocracia performática.
+    </td>
+    <td width="33%" valign="top">
+      <strong>✦ IA aplicada</strong><br /><br />
+      Sistemas que usam IA para ampliar o trabalho de times — não para adicionar uma caixa-preta à arquitetura.
     </td>
   </tr>
 </table>
 
-<br />
+## Onde deixei código
 
-<div align="center">
-  <a href="https://github.com/zanarellidev">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=zanarellidev&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=58A6FF&icon_color=7EE787&text_color=C9D1D9&bg_color=0D1117" alt="Estatísticas públicas do GitHub de Raphael Zanarelli" />
-  </a>
-  <a href="https://github.com/zanarellidev?tab=repositories">
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zanarellidev&layout=compact&hide_border=true&title_color=58A6FF&text_color=C9D1D9&bg_color=0D1117" alt="Linguagens mais usadas nos repositórios públicos" />
-  </a>
-</div>
+Algumas contribuições em projetos que formam a base de plataformas modernas:
 
-## / impacto open source
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/kubernetes/kubernetes/pull/140991"><strong>Kubernetes</strong></a><br />
+      <sub>Orquestração de workloads</sub><br /><br />
+      <a href="https://github.com/cilium/cilium/pull/47568"><strong>Cilium</strong></a> · <a href="https://github.com/istio/istio/pull/61024"><strong>Istio</strong></a><br />
+      <sub>Rede, identidade e service mesh</sub><br /><br />
+      <a href="https://github.com/open-telemetry/opentelemetry-collector/pull/15679"><strong>OpenTelemetry Collector</strong></a><br />
+      <sub>Sinais para entender produção</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/etcd-io/etcd/pull/22211"><strong>etcd</strong></a> · <a href="https://github.com/rook/rook/pull/18066"><strong>Rook</strong></a><br />
+      <sub>Dados distribuídos e storage</sub><br /><br />
+      <a href="https://github.com/grpc/grpc-go/pull/9275"><strong>gRPC-Go</strong></a> · <a href="https://github.com/cert-manager/cert-manager/pull/9081"><strong>cert-manager</strong></a><br />
+      <sub>Comunicação entre serviços e certificados</sub>
+    </td>
+  </tr>
+</table>
 
-Contribuo onde confiabilidade e segurança têm consequências reais — na infraestrutura que muita gente usa sem perceber.
+## Ferramentas que aparecem por aqui
 
-| Ecossistema | Contribuição |
-| --- | --- |
-| [Kubernetes](https://github.com/kubernetes/kubernetes/pull/140991) | Plataforma de orquestração de contêineres |
-| [Cilium](https://github.com/cilium/cilium/pull/47568) · [Istio](https://github.com/istio/istio/pull/61024) | Networking, segurança e service mesh |
-| [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector/pull/15679) | Observabilidade aberta e vendor-neutral |
-| [etcd](https://github.com/etcd-io/etcd/pull/22211) · [Rook](https://github.com/rook/rook/pull/18066) | Dados distribuídos e storage no Kubernetes |
-| [gRPC-Go](https://github.com/grpc/grpc-go/pull/9275) · [cert-manager](https://github.com/cert-manager/cert-manager/pull/9081) | Comunicação entre serviços e automação de certificados |
-
-<div align="center">
-  <a href="https://github.com/zanarellidev?tab=overview&from=2026-01-01&to=2026-12-31">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=zanarellidev&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=7EE787&area=true&area_color=1F6FEB&hide_border=true" alt="Atividade pública no GitHub" />
-  </a>
-</div>
-
-## / stack de trabalho
-
-`Kubernetes` · `Go` · `Python` · `Terraform` · `AWS` · `GCP` · `CI/CD` · `Observabilidade` · `Segurança` · `IA`
+`Go` `Python` `Kubernetes` `Terraform` `AWS` `GCP` `CI/CD` `OpenTelemetry` `Security` `AI`
 
 ---
 
-<div align="center">
-  <sub>Aberto a conversas sobre plataforma, confiabilidade, segurança e IA aplicada.</sub>
-</div>
+<sub>Se você está tentando deixar uma plataforma mais simples de operar, mais segura de mudar ou mais agradável de usar, vamos conversar.</sub>
