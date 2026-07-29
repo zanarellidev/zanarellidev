@@ -1,0 +1,20 @@
+name: Tenho uma ideia
+description: Compartilhe uma hipótese, produto, experimento ou problema que vale explorar.
+title: "[Ideia] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideias não precisam estar prontas para serem interessantes. Contexto e curiosidade bastam.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Qual é a ideia?
+      placeholder: O que você enxergou e por que isso importa agora?
+    validations:
+      required: true
+  - type: textarea
+    id: next-step
+    attributes:
+      label: Onde uma conversa poderia ajudar?
+      placeholder: Uma crítica, alguém para pensar junto, um experimento, uma conexão...

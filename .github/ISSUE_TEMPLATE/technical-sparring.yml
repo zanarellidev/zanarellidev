@@ -1,0 +1,36 @@
+name: Quero discutir uma dúvida técnica
+description: Traga um problema de arquitetura, plataforma, segurança, confiabilidade ou IA aplicada.
+title: "[Conversa técnica] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Sem problema de casa: traga o contexto real e a pergunta que está difícil de formular.
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto
+      placeholder: O que o sistema faz, quais restrições importam e o que já foi tentado?
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Qual é a pergunta?
+      placeholder: Onde está o trade-off ou a decisão difícil?
+    validations:
+      required: true
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Tema principal
+      options:
+        - Plataforma e developer experience
+        - Cloud e Kubernetes
+        - Sistemas distribuídos e confiabilidade
+        - Segurança
+        - Observabilidade
+        - IA aplicada
+        - Outro
+    validations:
+      required: true

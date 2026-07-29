@@ -56,6 +56,20 @@ Algumas contribuições em projetos que formam a base de plataformas modernas:
 
 `Go` `Python` `Kubernetes` `Terraform` `AWS` `GCP` `CI/CD` `OpenTelemetry` `Security` `AI`
 
+## A porta está aberta
+
+Tecnologia melhora quando a conversa começa antes do backlog. Se algo aqui acionou uma ideia, escolha uma porta — cada uma começa com o contexto certo.
+
+| O que você quer destravar? | Vamos por aqui |
+| --- | --- |
+| **Tenho uma ideia para compartilhar** | [Abrir a conversa →](https://github.com/zanarellidev/zanarellidev/issues/new?template=idea.yml) |
+| **Quero discutir uma dúvida técnica** | [Trazer o problema →](https://github.com/zanarellidev/zanarellidev/issues/new?template=technical-sparring.yml) |
+| **Quero uma perspectiva de carreira** | [Pedir uma dica →](https://github.com/zanarellidev/zanarellidev/issues/new?template=career.yml) |
+| **Quero construir algo junto** | [Propor uma colaboração →](https://github.com/zanarellidev/zanarellidev/issues/new?template=collaboration.yml) |
+| **Represento uma empresa ou estou montando um time** | [Conversar em privado no LinkedIn →](https://www.linkedin.com/in/raphaelzanarelli/) |
+
+<sub>Não precisa de pitch perfeito. Uma pergunta honesta, um problema real ou uma hipótese interessante já é um ótimo começo.</sub>
+
 ---
 
 <sub>Se você está tentando deixar uma plataforma mais simples de operar, mais segura de mudar ou mais agradável de usar, vamos conversar.</sub>

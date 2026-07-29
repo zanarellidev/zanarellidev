@@ -1,0 +1,22 @@
+name: Quero uma perspectiva de carreira
+description: Pergunte sobre decisões de carreira, liderança técnica, open source ou crescimento em engenharia.
+title: "[Carreira] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Uma pergunta específica recebe uma resposta melhor. Não compartilhe dados pessoais sensíveis.
+  - type: textarea
+    id: situation
+    attributes:
+      label: Onde você está agora?
+      placeholder: Dê o mínimo de contexto necessário para eu entender o cenário.
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: O que você quer decidir ou aprender?
+      placeholder: Qual é a pergunta que está ocupando espaço na sua cabeça?
+    validations:
+      required: true

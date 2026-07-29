@@ -1,0 +1,22 @@
+name: Quero construir algo junto
+description: Proponha uma colaboração em produto, open source, comunidade ou conteúdo técnico.
+title: "[Colaboração] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        O melhor convite deixa claro o problema, o impacto e o primeiro passo possível.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: O que você quer construir?
+      placeholder: Descreva a oportunidade e por que ela vale o tempo das pessoas envolvidas.
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Onde você imagina que eu poderia contribuir?
+      placeholder: Contexto técnico, conexão, revisão, estratégia ou execução.
+    validations:
+      required: true
