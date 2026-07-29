@@ -1,4 +1,6 @@
-<img src="./assets/platform-atlas.png" alt="Mapa abstrato de uma plataforma distribuída: serviços, conexões e segurança" width="100%" />
+<img src="./assets/octopus-network.png" alt="Polvo rosa em pixel art operando um terminal no meio de uma rede imensa de computadores conectados" width="100%" />
+
+<sub>Um nó pequeno na rede. Ainda assim, conectado a coisas grandes.</sub>
 
 # Raphael Zanarelli
 
