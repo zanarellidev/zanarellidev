@@ -30,6 +30,6 @@ Pull requests em projetos de infraestrutura e plataformas distribuídas:
 <img src="https://github-readme-stats.vercel.app/api?username=zanarellidev&show_icons=true&hide_border=true&bg_color=080b16&title_color=ec5a76&text_color=e7e4db&icon_color=4dd6e8" height="165" alt="Estatísticas do GitHub" />
 </div>
 
-## Vamos trocar ideia?
+## Vamos trocar ideias?
 
 - [Me contate no LinkedIn](https://www.linkedin.com/in/raphaelzanarelli/)
