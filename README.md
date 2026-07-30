@@ -17,7 +17,6 @@ Engenheiro de software com mais de 10 anos criando e operando aplicações empre
 
 Pull requests em projetos de infraestrutura e plataformas distribuídas:
 
-- [gRPC-Go](https://github.com/grpc/grpc-go/pull/9275) — garantia de invocação única para callback `OnFinish`.
 - [cert-manager](https://github.com/cert-manager/cert-manager/pull/9081) — correção de `nil pointer` em validação de identidade.
 - [Rook](https://github.com/rook/rook/pull/18066) — correção no wipe de dispositivos criptografados.
 - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector/pull/15679) — validação de IDs em feature gates.
