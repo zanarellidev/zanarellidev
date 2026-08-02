@@ -31,6 +31,7 @@ Pull requests em projetos de infraestrutura e plataformas distribuídas:
 - [Helm](https://github.com/helm/helm/pull/32501) — retry em conflito de `ResourceQuota` no server-side apply (`helm upgrade`).
 - [Helm](https://github.com/helm/helm/pull/32502) — correção de panic em plugin de post-renderer com saída malformada.
 - [Prometheus](https://github.com/prometheus/prometheus/pull/19309) — correção de serialização JSON do `Regexp` para valor nulo.
+- [Cluster API](https://github.com/kubernetes-sigs/cluster-api/pull/14022) — merge em vez de substituição total de labels/annotations em patches de ClusterClass.
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=zanarellidev&show_icons=true&hide_border=true&bg_color=080b16&title_color=ec5a76&text_color=e7e4db&icon_color=4dd6e8" height="165" alt="Estatísticas do GitHub" />
