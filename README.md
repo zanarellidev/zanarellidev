@@ -29,7 +29,7 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 **CVEs confirmadas**
 
 - [Apache Airflow — CVE-2026-68970](https://github.com/apache/airflow/security/advisories/GHSA-f3c2-j7g8-vpp8) — vazamento de segredos em Variables do tipo lista, sem mascaramento nos logs de task.
-- moby/buildkit — vulnerabilidade de exposição de credenciais em URL, confirmada pela equipe de segurança da Docker (GHSA-2jhm-rc59-3r2h); CVE formal ainda não publicado pelo projeto.
+- Docker/BuildKit — vulnerabilidade confirmada pela equipe de segurança da Docker; divulgação pública ainda pendente.
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=zanarellidev&show_icons=true&hide_border=true&bg_color=080b16&title_color=ec5a76&text_color=e7e4db&icon_color=4dd6e8" height="165" alt="Estatísticas do GitHub" />
