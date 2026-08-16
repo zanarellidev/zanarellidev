@@ -28,7 +28,7 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 
 **CVEs confirmadas**
 
-- [Apache Airflow — CVE-2026-68970](https://github.com/apache/airflow/security/advisories/GHSA-f3c2-j7g8-vpp8) — vazamento de segredos em Variables do tipo lista, sem mascaramento nos logs de task.
+- [Apache Airflow — CVE-2026-68970](https://www.cve.org/CVERecord?id=CVE-2026-68970) — vazamento de segredos em Variables do tipo lista, sem mascaramento nos logs de task.
 - Docker/BuildKit — vulnerabilidade confirmada pela equipe de segurança da Docker; divulgação pública ainda pendente.
 
 <div align="center">
