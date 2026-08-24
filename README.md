@@ -28,11 +28,15 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 - [Kubernetes Cluster API](https://github.com/kubernetes-sigs/cluster-api/pull/14022) — esclarecimento na documentação sobre a semântica de full-replace em patches JSON de labels/annotations.
 - [Apache Hop](https://github.com/apache/hop/pull/8027) — correção de vazamento de segredos na serialização JSON de execuções (parâmetros de pipeline não eram mascarados, como as variáveis já eram).
 - [Kubernetes ExternalDNS](https://github.com/kubernetes-sigs/external-dns/pull/6611) — correção de avaliação de templates de FQDN em objetos tipados (typed sources), alinhando o comportamento ao das unstructured sources.
+- [Kubernetes ExternalDNS](https://github.com/kubernetes-sigs/external-dns/pull/6644) — reordenação da resolução de hostnames em rotas Gateway API: anotações agora são coletadas antes da avaliação do template de FQDN.
+- [Apache Kyuubi](https://github.com/apache/kyuubi/commit/3bc223dbec2ace1692ba22769404c9dd329981ed) — definição de regex padrão para mascaramento de dados sensíveis na configuração de redaction da API do servidor.
+- [Dapr (Distributed Application Runtime)](https://github.com/dapr/dapr/pull/10307) — identificação e resolução de race condition de cancel/completion em workflows em clustered deployment ([Issue #10305](https://github.com/dapr/dapr/issues/10305) / [PR #10307](https://github.com/dapr/dapr/pull/10307)).
 
 **CVEs confirmadas**
 
 - [Apache Airflow — CVE-2026-68970](https://www.cve.org/CVERecord?id=CVE-2026-68970) — vazamento de segredos em Variables do tipo lista, sem mascaramento nos logs de task.
 - Docker/BuildKit — vulnerabilidade confirmada pela equipe de segurança da Docker; divulgação pública ainda pendente.
+- Kyverno — vulnerabilidade confirmada pela equipe de segurança; divulgação pública ainda pendente.
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=zanarellidev&show_icons=true&hide_border=true&bg_color=080b16&title_color=ec5a76&text_color=e7e4db&icon_color=4dd6e8" height="165" alt="Estatísticas do GitHub" />
