@@ -19,20 +19,21 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 
 **Pull requests mergeados**
 
-- [fluxcd/notification-controller](https://github.com/fluxcd/notification-controller/pull/1358) — cobertura de teste para respostas 2xx do webhook, incluindo 204.
 - **[klauspost/compress](https://github.com/klauspost/compress)**
   - [PR #1182](https://github.com/klauspost/compress/pull/1182) — correção de race condition em dicionário compartilhado no zstd.
   - [PR #1183](https://github.com/klauspost/compress/pull/1183) — GitHub Action do OpenSSF Scorecard.
   - [PR #1184](https://github.com/klauspost/compress/pull/1184) — correção de offsets inválidos no `BuildDict` do zstd.
-- [Envoy Gateway](https://github.com/envoyproxy/gateway/pull/9634) — reconciliação de `ListenerSet` ao renovar o Secret TLS referenciado.
-- [Fluent Bit](https://github.com/fluent/fluent-bit/pull/12222) — correção de parsing inseguro de MessagePack no `in_kubernetes_events` (mergeado a partir do PR original [#12187](https://github.com/fluent/fluent-bit/pull/12187), autoria preservada).
-- [Kubernetes Cluster API](https://github.com/kubernetes-sigs/cluster-api/pull/14022) — esclarecimento na documentação sobre a semântica de full-replace em patches JSON de labels/annotations.
-- [Apache Hop](https://github.com/apache/hop/pull/8027) — correção de vazamento de segredos na serialização JSON de execuções (parâmetros de pipeline não eram mascarados, como as variáveis já eram).
 - **[Kubernetes ExternalDNS](https://github.com/kubernetes-sigs/external-dns)**
   - [PR #6611](https://github.com/kubernetes-sigs/external-dns/pull/6611) — correção de avaliação de templates de FQDN em objetos tipados (typed sources), alinhando o comportamento ao das unstructured sources.
   - [PR #6644](https://github.com/kubernetes-sigs/external-dns/pull/6644) — reordenação da resolução de hostnames em rotas Gateway API: anotações agora são coletadas antes da avaliação do template de FQDN.
-- [Apache Kyuubi](https://github.com/apache/kyuubi/commit/3bc223dbec2ace1692ba22769404c9dd329981ed) — definição de regex padrão para mascaramento de dados sensíveis na configuração de redaction da API do servidor.
 - [Dapr (Distributed Application Runtime)](https://github.com/dapr/dapr/pull/10307) — identificação e resolução de race condition de cancel/completion em workflows em clustered deployment ([Issue #10305](https://github.com/dapr/dapr/issues/10305) / [PR #10307](https://github.com/dapr/dapr/pull/10307)).
+- [Fluent Bit](https://github.com/fluent/fluent-bit/pull/12222) — correção de parsing inseguro de MessagePack no `in_kubernetes_events` (mergeado a partir do PR original [#12187](https://github.com/fluent/fluent-bit/pull/12187), autoria preservada).
+- [Apache Hop](https://github.com/apache/hop/pull/8027) — correção de vazamento de segredos na serialização JSON de execuções (parâmetros de pipeline não eram mascarados, como as variáveis já eram).
+- [Kubernetes Cluster API](https://github.com/kubernetes-sigs/cluster-api/pull/14022) — esclarecimento na documentação sobre a semântica de full-replace em patches JSON de labels/annotations.
+- [Envoy Gateway](https://github.com/envoyproxy/gateway/pull/9634) — reconciliação de `ListenerSet` ao renovar o Secret TLS referenciado.
+- [Apache Kyuubi](https://github.com/apache/kyuubi/commit/3bc223dbec2ace1692ba22769404c9dd329981ed) — definição de regex padrão para mascaramento de dados sensíveis na configuração de redaction da API do servidor.
+- [fluxcd/notification-controller](https://github.com/fluxcd/notification-controller/pull/1358) — cobertura de teste para respostas 2xx do webhook, incluindo 204.
+- [Java Design Patterns](https://github.com/iluwatar/java-design-patterns/pull/3583) — localização e tradução para português (pt-BR) dos padrões `polling-publisher`, `money` e `delegation`.
 
 **CVEs confirmadas**
 
