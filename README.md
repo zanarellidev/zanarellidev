@@ -24,7 +24,7 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 - **[Langflow AI](https://github.com/langflow-ai/langflow)**
   - [PR #14758](https://github.com/langflow-ai/langflow/pull/14758) — suporte a parâmetro Top-K para Amazon Bedrock Converse e perfis de inferência cross-region (co-autor: commit e testes originados do PR [#14717](https://github.com/langflow-ai/langflow/pull/14717) de @zanarellidev, conforme creditado na descrição do PR mergeado).
 - **[klauspost/compress](https://github.com/klauspost/compress)**
-  - [PR #1182](https://github.com/klauspost/compress/pull/1182) — correção de race condition em dicionário compartilhado no zstd.
+  - [PR #1182](https://github.com/klauspost/compress/pull/1182) — race condition em dicionário compartilhado no zstd.
   - [PR #1183](https://github.com/klauspost/compress/pull/1183) — GitHub Action do OpenSSF Scorecard.
   - [PR #1184](https://github.com/klauspost/compress/pull/1184) — correção de offsets inválidos no `BuildDict` do zstd.
 - **[Kubernetes ExternalDNS](https://github.com/kubernetes-sigs/external-dns)**
