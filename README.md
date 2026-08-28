@@ -19,6 +19,8 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 
 **Pull requests mergeados**
 
+- **[Prometheus](https://github.com/prometheus/procfs)**
+  - [PR #855](https://github.com/prometheus/procfs/pull/855) (procfs) — correção na documentação técnica de `parseStat` (`/proc/stat`) e otimização no parser em Go reaproveitando variável de linha (`line`).
 - **[Istio](https://github.com/istio/istio)**
   - [PR #61024](https://github.com/istio/istio/pull/61024) — correção no CNI em ambient mode impedindo a alternância indevida (flip-flop) entre backends de iptables (`legacy` vs `nft`) entre restarts consecutivos do nó.
 - **[Langflow AI](https://github.com/langflow-ai/langflow)**
