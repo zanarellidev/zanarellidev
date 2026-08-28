@@ -49,6 +49,7 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 - VMware / Spring — vulnerabilidade aceita pela equipe de segurança; divulgação pública ainda pendente.
 - Docker/BuildKit — vulnerabilidade confirmada pela equipe de segurança da Docker; divulgação pública ainda pendente.
 - Kyverno — vulnerabilidade confirmada pela equipe de segurança; divulgação pública ainda pendente.
+- Containerd — vulnerabilidade aceita pela equipe de segurança; divulgação pública ainda pendente.
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=zanarellidev&show_icons=true&hide_border=true&bg_color=080b16&title_color=ec5a76&text_color=e7e4db&icon_color=4dd6e8" height="165" alt="Estatísticas do GitHub" />
