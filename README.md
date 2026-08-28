@@ -29,7 +29,7 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
   - [PR #1182](https://github.com/klauspost/compress/pull/1182) — race condition em dicionário compartilhado no zstd.
   - [PR #1183](https://github.com/klauspost/compress/pull/1183) — GitHub Action do OpenSSF Scorecard.
   - [PR #1184](https://github.com/klauspost/compress/pull/1184) — correção de offsets inválidos no `BuildDict` do zstd.
-- **[Kubernetes](https://github.com/kubernetes-sigs)** (SIGs)
+- **[Kubernetes](https://github.com/kubernetes-sigs)**
   - [ExternalDNS · PR #6611](https://github.com/kubernetes-sigs/external-dns/pull/6611) — correção de avaliação de templates de FQDN em objetos tipados (typed sources), alinhando o comportamento ao das unstructured sources.
   - [ExternalDNS · PR #6644](https://github.com/kubernetes-sigs/external-dns/pull/6644) — reordenação da resolução de hostnames em rotas Gateway API: anotações agora são coletadas antes da avaliação do template de FQDN.
   - [Cluster API · PR #14022](https://github.com/kubernetes-sigs/cluster-api/pull/14022) — esclarecimento na documentação sobre a semântica de full-replace em patches JSON de labels/annotations.
