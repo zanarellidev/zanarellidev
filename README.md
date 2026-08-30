@@ -36,6 +36,7 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
   - [PR #1184](https://github.com/klauspost/compress/pull/1184) — correção de offsets inválidos no `BuildDict` do zstd.
 - **[Langflow AI](https://github.com/langflow-ai/langflow)**
   - [PR #14758](https://github.com/langflow-ai/langflow/pull/14758) — suporte a parâmetro Top-K para Amazon Bedrock Converse e perfis de inferência cross-region (co-autor: commit e testes originados do PR [#14717](https://github.com/langflow-ai/langflow/pull/14717) de @zanarellidev, conforme creditado na descrição do PR mergeado).
+- [Crossplane](https://github.com/crossplane/docs/pull/1130) — atualização e correção na documentação oficial de instalação sobre feature flags descontinuadas nas versões ativas ([PR #1130](https://github.com/crossplane/docs/pull/1130)).
 - [Dapr (Distributed Application Runtime)](https://github.com/dapr/dapr/pull/10307) — identificação e resolução de race condition de cancel/completion em workflows em clustered deployment ([Issue #10305](https://github.com/dapr/dapr/issues/10305) / [PR #10307](https://github.com/dapr/dapr/pull/10307)).
 - [Fluent Bit](https://github.com/fluent/fluent-bit/pull/12222) — correção de parsing inseguro de MessagePack no `in_kubernetes_events` (mergeado a partir do PR original [#12187](https://github.com/fluent/fluent-bit/pull/12187), autoria preservada).
 - [Envoy Gateway](https://github.com/envoyproxy/gateway/pull/9634) — reconciliação de `ListenerSet` ao renovar o Secret TLS referenciado.
