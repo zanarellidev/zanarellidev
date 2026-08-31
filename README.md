@@ -19,6 +19,8 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 
 **Pull requests mergeados**
 
+- **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)**
+  - [PR #8962](https://github.com/open-policy-agent/opa/pull/8962) — correção de reuso de buffer na análise de segurança do AST (`reorderBodyForSafety`), impedindo que expressões de igualdade herdem variáveis não aterradas e gerem resultados vazios em compreensões ([#8302](https://github.com/open-policy-agent/opa/issues/8302)).
 - **[Prometheus](https://github.com/prometheus/procfs)**
   - [PR #855](https://github.com/prometheus/procfs/pull/855) (procfs) — correção na documentação técnica de `parseStat` (`/proc/stat`) e otimização no parser em Go reaproveitando variável de linha (`line`).
 - **[Istio](https://github.com/istio/istio)**
