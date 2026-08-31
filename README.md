@@ -63,7 +63,7 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 - **Containerd** — vulnerabilidade aceita pela equipe de segurança; divulgação pública ainda pendente.
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=zanarellidev&show_icons=true&hide_border=true&bg_color=080b16&title_color=ec5a76&text_color=e7e4db&icon_color=4dd6e8" height="165" alt="Estatísticas do GitHub" />
+<img src="./assets/contributions-velocity.svg" width="100%" alt="Evolução e Curva de Contribuições Open Source e CVEs" />
 </div>
 
 ## Vamos trocar ideias?
