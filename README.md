@@ -33,9 +33,9 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
   - [PR #8094](https://github.com/apache/hop/pull/8094) — suporte a argumentos ocultos (Hidden Arguments) na Shell Action para mascaramento seguro (`***`) e prevenção de vazamento de credenciais em logs de execução e UI ([#4935](https://github.com/apache/hop/issues/4935)).
   - [PR #8027](https://github.com/apache/hop/pull/8027) — correção de vazamento de segredos na serialização JSON de execuções (parâmetros de pipeline não eram mascarados, como as variáveis já eram).
 - **[klauspost/compress](https://github.com/klauspost/compress)**
-  - [PR #1182](https://github.com/klauspost/compress/pull/1182) — race condition em dicionário compartilhado no zstd.
-  - [PR #1183](https://github.com/klauspost/compress/pull/1183) — GitHub Action do OpenSSF Scorecard.
-  - [PR #1184](https://github.com/klauspost/compress/pull/1184) — correção de offsets inválidos no `BuildDict` do zstd.
+  - [PR #1182](https://github.com/klauspost/compress/pull/1182) — correção de race condition de escrita concorrente em dicionário treinado compartilhado no encoder zstd.
+  - [PR #1183](https://github.com/klauspost/compress/pull/1183) — integração do GitHub Action do OpenSSF Scorecard para auditoria contínua de segurança na supply chain.
+  - [PR #1184](https://github.com/klauspost/compress/pull/1184) — prevenção de offsets negativos e corrupção de estado no algoritmo de geração de dicionários (`BuildDict`).
 - **[Langflow AI](https://github.com/langflow-ai/langflow)**
   - [PR #14758](https://github.com/langflow-ai/langflow/pull/14758) — suporte a parâmetro Top-K para Amazon Bedrock Converse e perfis de inferência cross-region (co-autor: commit e testes originados do PR [#14717](https://github.com/langflow-ai/langflow/pull/14717) de @zanarellidev, conforme creditado na descrição do PR mergeado).
 - [Crossplane](https://github.com/crossplane/docs/pull/1130) — atualização e correção na documentação oficial de instalação sobre feature flags descontinuadas nas versões ativas ([PR #1130](https://github.com/crossplane/docs/pull/1130)).
