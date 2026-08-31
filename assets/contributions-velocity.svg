@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 280" width="100%" height="280" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 320" width="100%" height="320" fill="none">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="cardBg" x1="0" y1="0" x2="850" y2="280" gradientUnits="userSpaceOnUse">
+    <linearGradient id="cardBg" x1="0" y1="0" x2="850" y2="320" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#080b16" />
-      <stop offset="60%" stop-color="#0b1020" />
+      <stop offset="50%" stop-color="#0d1424" />
       <stop offset="100%" stop-color="#080b16" />
     </linearGradient>
 
@@ -15,34 +15,22 @@
     </linearGradient>
 
     <!-- Area Chart Gradient -->
-    <linearGradient id="areaGrad" x1="0" y1="40" x2="0" y2="210" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#ec5a76" stop-opacity="0.45" />
-      <stop offset="40%" stop-color="#4dd6e8" stop-opacity="0.25" />
+    <linearGradient id="areaGrad" x1="0" y1="80" x2="0" y2="225" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ec5a76" stop-opacity="0.38" />
+      <stop offset="50%" stop-color="#4dd6e8" stop-opacity="0.18" />
       <stop offset="100%" stop-color="#4dd6e8" stop-opacity="0.0" />
     </linearGradient>
 
     <!-- Curve Stroke Gradient -->
-    <linearGradient id="strokeGrad" x1="80" y1="195" x2="680" y2="45" gradientUnits="userSpaceOnUse">
+    <linearGradient id="strokeGrad" x1="90" y1="220" x2="740" y2="85" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#4dd6e8" />
-      <stop offset="55%" stop-color="#a855f7" />
+      <stop offset="50%" stop-color="#a855f7" />
       <stop offset="100%" stop-color="#ec5a76" />
-    </linearGradient>
-
-    <!-- Badge Cyan Gradient -->
-    <linearGradient id="cyanBadge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#4dd6e8" />
-      <stop offset="100%" stop-color="#0284c7" />
-    </linearGradient>
-
-    <!-- Badge Rose Gradient -->
-    <linearGradient id="roseBadge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ec5a76" />
-      <stop offset="100%" stop-color="#be185d" />
     </linearGradient>
 
     <!-- Glow Filter for Main Path -->
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -50,125 +38,127 @@
     </filter>
 
     <filter id="cardShadow" x="-2%" y="-2%" width="104%" height="108%">
-      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.6" />
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.65" />
     </filter>
   </defs>
 
   <!-- Main Card Container -->
-  <rect x="10" y="10" width="830" height="260" rx="16" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.2" filter="url(#cardShadow)" />
+  <rect x="10" y="10" width="830" height="300" rx="16" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.2" filter="url(#cardShadow)" />
   
   <!-- Glowing Top Accent Border -->
   <path d="M 26 10 L 824 10" stroke="url(#neonGlow)" stroke-width="2.5" stroke-linecap="round" />
 
-  <!-- Header: Title & Total Badges -->
+  <!-- Header: Title & Subtitle -->
   <g transform="translate(35, 38)">
-    <text x="0" y="0" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" letter-spacing="-0.01em">
+    <text x="0" y="0" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" letter-spacing="-0.01em">
       Evolução de Contribuições &amp; CVEs em Open Source
     </text>
-    <text x="0" y="18" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">
+    <text x="0" y="19" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5">
       Curva de impacto cumulativo em plataformas distribuídas e segurança cloud-native
     </text>
   </g>
 
-  <!-- KPI Badges (Top Right) -->
-  <g transform="translate(530, 26)">
+  <!-- KPI Badges (Top Right - Non overlapping) -->
+  <g transform="translate(540, 22)">
     <!-- PRs Badge -->
-    <rect x="0" y="0" width="135" height="34" rx="8" fill="#0c1a2e" stroke="#1e3a5f" stroke-width="1" />
-    <circle cx="16" cy="17" r="4" fill="#4dd6e8" />
-    <text x="28" y="21" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">14 Merged PRs</text>
+    <rect x="0" y="0" width="130" height="30" rx="7" fill="#0c1a2e" stroke="#1e3a5f" stroke-width="1" />
+    <circle cx="14" cy="15" r="4" fill="#4dd6e8" />
+    <text x="26" y="19" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">14 Merged PRs</text>
 
     <!-- CVEs Badge -->
-    <rect x="145" y="0" width="140" height="34" rx="8" fill="#25101f" stroke="#4c1d3d" stroke-width="1" />
-    <circle cx="161" cy="17" r="4" fill="#ec5a76" />
-    <text x="173" y="21" fill="#f472b6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">6 CVEs Aceitas</text>
+    <rect x="140" y="0" width="135" height="30" rx="7" fill="#25101f" stroke="#4c1d3d" stroke-width="1" />
+    <circle cx="154" cy="15" r="4" fill="#ec5a76" />
+    <text x="166" y="19" fill="#f472b6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">6 CVEs Aceitas</text>
   </g>
 
   <!-- Grid Horizontal Reference Lines -->
   <g stroke="#1e293b" stroke-width="1" stroke-dasharray="3 4">
-    <line x1="60" y1="85" x2="780" y2="85" />
-    <line x1="60" y1="130" x2="780" y2="130" />
-    <line x1="60" y1="175" x2="780" y2="175" />
-    <line x1="60" y1="215" x2="780" y2="215" stroke-dasharray="0" stroke="#334155" />
+    <line x1="65" y1="85" x2="785" y2="85" />
+    <line x1="65" y1="120" x2="785" y2="120" />
+    <line x1="65" y1="155" x2="785" y2="155" />
+    <line x1="65" y1="190" x2="785" y2="190" />
+    <line x1="65" y1="225" x2="785" y2="225" stroke-dasharray="0" stroke="#334155" />
   </g>
 
   <!-- Grid Y-Axis Labels -->
   <g fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="end">
-    <text x="50" y="89">20</text>
-    <text x="50" y="134">12</text>
-    <text x="50" y="179">5</text>
-    <text x="50" y="219">0</text>
+    <text x="54" y="89">20</text>
+    <text x="54" y="124">15</text>
+    <text x="54" y="159">10</text>
+    <text x="54" y="194">5</text>
+    <text x="54" y="229">0</text>
   </g>
 
   <!-- Area under Curve Fill -->
-  <path d="M 80 205 
-           C 160 200, 200 175, 250 165 
-           C 320 150, 380 128, 440 120 
-           C 510 110, 580 85, 630 65 
-           C 680 50, 720 45, 750 42 
-           L 750 215 L 80 215 Z" 
+  <path d="M 90 220 
+           C 170 215, 200 190, 240 185 
+           C 290 180, 350 155, 400 145 
+           C 470 135, 520 115, 570 110 
+           C 630 105, 690 88, 740 85 
+           L 740 225 L 90 225 Z" 
         fill="url(#areaGrad)" />
 
   <!-- The Glow Curve Line -->
-  <path d="M 80 205 
-           C 160 200, 200 175, 250 165 
-           C 320 150, 380 128, 440 120 
-           C 510 110, 580 85, 630 65 
-           C 680 50, 720 45, 750 42" 
+  <path d="M 90 220 
+           C 170 215, 200 190, 240 185 
+           C 290 180, 350 155, 400 145 
+           C 470 135, 520 115, 570 110 
+           C 630 105, 690 88, 740 85" 
         stroke="url(#strokeGrad)" stroke-width="3.5" stroke-linecap="round" fill="none" filter="url(#glow)" />
 
   <!-- Milestone Nodes & Callouts -->
 
-  <!-- Point 1: Kickoff Julho -->
-  <g transform="translate(80, 205)">
+  <!-- Node 1: Kickoff Julho -->
+  <g transform="translate(90, 220)">
     <circle cx="0" cy="0" r="4.5" fill="#080b16" stroke="#4dd6e8" stroke-width="2.5" />
   </g>
 
-  <!-- Point 2: 05 Ago (Compress/Flux) -->
-  <g transform="translate(250, 165)">
+  <!-- Node 2: 05 Ago (Compress/Flux) -->
+  <g transform="translate(240, 185)">
     <circle cx="0" cy="0" r="4.5" fill="#080b16" stroke="#4dd6e8" stroke-width="2.5" />
-    <line x1="0" y1="0" x2="0" y2="15" stroke="#334155" stroke-width="1" stroke-dasharray="2 2" />
   </g>
 
-  <!-- Point 3: 13 Ago (Airflow CVE + Envoy) -->
-  <g transform="translate(440, 120)">
+  <!-- Node 3: 13 Ago (Airflow CVE + Envoy) -->
+  <g transform="translate(400, 145)">
     <circle cx="0" cy="0" r="5" fill="#080b16" stroke="#a855f7" stroke-width="2.5" />
-    <!-- Mini Tag -->
-    <rect x="-42" y="-28" width="84" height="20" rx="5" fill="#1e1b4b" stroke="#4338ca" stroke-width="1" />
-    <text x="0" y="-14" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" text-anchor="middle">CVE Airflow</text>
+    <!-- Floating Tag -->
+    <rect x="-38" y="-24" width="76" height="18" rx="4" fill="#1e1b4b" stroke="#4338ca" stroke-width="1" />
+    <text x="0" y="-11" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" text-anchor="middle">CVE Airflow</text>
   </g>
 
-  <!-- Point 4: 22 Ago (Kubernetes ExternalDNS) -->
-  <g transform="translate(630, 65)">
+  <!-- Node 4: 22 Ago (Kubernetes / ExternalDNS) -->
+  <g transform="translate(570, 110)">
     <circle cx="0" cy="0" r="5" fill="#080b16" stroke="#ec5a76" stroke-width="2.5" />
   </g>
 
-  <!-- Point 5: Current Tip (OPA + Hop CVE + Istio) -->
-  <g transform="translate(750, 42)">
+  <!-- Node 5: Current Milestone (OPA + Hop CVE + Istio) -->
+  <g transform="translate(740, 85)">
     <circle cx="0" cy="0" r="8" fill="#ec5a76" fill-opacity="0.25" />
     <circle cx="0" cy="0" r="5" fill="#ffffff" stroke="#ec5a76" stroke-width="2.5" />
     
-    <!-- Highlight Callout -->
-    <g transform="translate(0, -18)">
-      <rect x="-48" y="-22" width="96" height="24" rx="6" fill="#ec5a76" />
-      <polygon points="-5,2 5,2 0,7" fill="#ec5a76" />
-      <text x="0" y="-6" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="800" text-anchor="middle">20+ TOTAL</text>
+    <!-- Milestone Callout Badge -->
+    <g transform="translate(0, -28)">
+      <rect x="-44" y="-10" width="88" height="22" rx="5" fill="#ec5a76" />
+      <polygon points="-4,12 4,12 0,16" fill="#ec5a76" />
+      <text x="0" y="5" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="800" text-anchor="middle">20+ TOTAL</text>
     </g>
   </g>
 
   <!-- X-Axis Timeline Labels -->
   <g fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">
-    <text x="80" y="240" text-anchor="middle">Julho</text>
-    <text x="250" y="240" text-anchor="middle">05 Ago</text>
-    <text x="440" y="240" text-anchor="middle">13 Ago</text>
-    <text x="630" y="240" text-anchor="middle">22 Ago</text>
-    <text x="750" y="240" text-anchor="middle">31 Ago (Hoje)</text>
+    <text x="90" y="248" text-anchor="middle">Julho</text>
+    <text x="240" y="248" text-anchor="middle">05 Ago</text>
+    <text x="400" y="248" text-anchor="middle">13 Ago</text>
+    <text x="570" y="248" text-anchor="middle">22 Ago</text>
+    <text x="740" y="248" text-anchor="middle">31 Ago (Hoje)</text>
   </g>
 
-  <!-- Bottom Badges / Legend -->
-  <g transform="translate(60, 252)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94a3b8">
-    <text x="0" y="0">
-      <tspan fill="#4dd6e8">●</tspan> OPA · Istio · Kubernetes · Hop · Prometheus · Zstd
-      <tspan dx="18" fill="#ec5a76">●</tspan> 6 Vulnerabilidades Confirmadas (Airflow, Hop, BuildKit, Spring, Kyverno, Containerd)
+  <!-- Bottom Legend Bar -->
+  <g transform="translate(35, 270)">
+    <rect x="0" y="0" width="780" height="26" rx="6" fill="#0c1322" stroke="#1e293b" stroke-width="1" />
+    <text x="390" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" text-anchor="middle" fill="#94a3b8">
+      <tspan fill="#4dd6e8">●</tspan> 14 Merges Upstream (OPA · Istio · K8s · Hop · Prometheus · Zstd)
+      <tspan dx="20" fill="#ec5a76">●</tspan> 6 CVEs Confirmadas (Airflow · Hop · BuildKit · Spring · Kyverno)
     </text>
   </g>
 </svg>
