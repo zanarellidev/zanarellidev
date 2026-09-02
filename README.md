@@ -21,8 +21,6 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 
 - **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)**
   - [PR #8962](https://github.com/open-policy-agent/opa/pull/8962) — correção de reuso de buffer na análise de segurança do AST (`reorderBodyForSafety`), impedindo que expressões de igualdade herdem variáveis não aterradas e gerem resultados vazios em compreensões ([#8302](https://github.com/open-policy-agent/opa/issues/8302)).
-- **[Pika (RabbitMQ client)](https://github.com/pika/pika)**
-  - [PR #1697](https://github.com/pika/pika/pull/1697) — correção de self-deadlock em `Connection.close()` quando invocado de dentro do callback de consumidor ou worker de eventos (`ThreadSafeConnection`), eliminando bloqueio mútuo no join da thread do IOLoop ([#1686](https://github.com/pika/pika/issues/1686)).
 - **[Istio](https://github.com/istio/istio)**
   - [PR #61024](https://github.com/istio/istio/pull/61024) — correção no CNI em ambient mode impedindo a alternância indevida (flip-flop) entre backends de iptables (`legacy` vs `nft`) entre restarts consecutivos do nó.
 - **[Kubernetes](https://github.com/kubernetes-sigs)**
@@ -36,6 +34,8 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 - **[Apache Hop](https://github.com/apache/hop)**
   - [PR #8094](https://github.com/apache/hop/pull/8094) — suporte a argumentos ocultos (Hidden Arguments) na Shell Action para mascaramento seguro (`***`) e prevenção de vazamento de credenciais em logs de execução e UI ([#4935](https://github.com/apache/hop/issues/4935)).
   - [PR #8027](https://github.com/apache/hop/pull/8027) — correção de vazamento de segredos na serialização JSON de execuções (parâmetros de pipeline não eram mascarados, como as variáveis já eram).
+- **[Pika (RabbitMQ client)](https://github.com/pika/pika)**
+  - [PR #1697](https://github.com/pika/pika/pull/1697) — correção de self-deadlock em `Connection.close()` quando invocado de dentro do callback de consumidor ou worker de eventos (`ThreadSafeConnection`), eliminando bloqueio mútuo no join da thread do IOLoop ([#1686](https://github.com/pika/pika/issues/1686)).
 - **[Prometheus](https://github.com/prometheus/procfs)**
   - [PR #855](https://github.com/prometheus/procfs/pull/855) (procfs) — correção na documentação técnica de `parseStat` (`/proc/stat`) e otimização no parser em Go reaproveitando variável de linha (`line`).
 - **[Langflow AI](https://github.com/langflow-ai/langflow)**
