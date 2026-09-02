@@ -63,7 +63,7 @@
     <!-- PRs Badge -->
     <rect x="0" y="0" width="130" height="30" rx="7" fill="#0c1a2e" stroke="#1e3a5f" stroke-width="1" />
     <circle cx="14" cy="15" r="4" fill="#4dd6e8" />
-    <text x="26" y="19" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">14 Merged PRs</text>
+    <text x="26" y="19" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">15 Merged PRs</text>
 
     <!-- CVEs Badge -->
     <rect x="140" y="0" width="135" height="30" rx="7" fill="#25101f" stroke="#4c1d3d" stroke-width="1" />
@@ -150,15 +150,15 @@
     <text x="240" y="248" text-anchor="middle">05 Ago</text>
     <text x="400" y="248" text-anchor="middle">13 Ago</text>
     <text x="570" y="248" text-anchor="middle">22 Ago</text>
-    <text x="740" y="248" text-anchor="middle">31 Ago (Hoje)</text>
+    <text x="740" y="248" text-anchor="middle">02 Set (Hoje)</text>
   </g>
 
   <!-- Bottom Legend Bar -->
   <g transform="translate(35, 270)">
     <rect x="0" y="0" width="780" height="26" rx="6" fill="#0c1322" stroke="#1e293b" stroke-width="1" />
     <text x="390" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" text-anchor="middle" fill="#94a3b8">
-      <tspan fill="#4dd6e8">●</tspan> 14 Merges Upstream (OPA · Istio · K8s · Hop · Prometheus · Zstd)
-      <tspan dx="20" fill="#ec5a76">●</tspan> 6 CVEs Confirmadas (Airflow · Hop · BuildKit · Spring · Kyverno)
+      <tspan fill="#4dd6e8">●</tspan> 15 Merges Upstream (OPA · Pika · Istio · K8s · Hop · Zstd)
+      <tspan dx="20" fill="#ec5a76">●</tspan> 6 CVEs Confirmadas (Airflow · Spring · Hop · BuildKit · Kyverno)
     </text>
   </g>
 </svg>
