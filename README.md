@@ -56,10 +56,10 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 **CVEs confirmadas**
 
 - **[Apache Airflow — CVE-2026-68970](https://www.cve.org/CVERecord?id=CVE-2026-68970)** — vazamento de segredos em Variables do tipo lista, sem mascaramento nos logs de task. Publicada em 12/08/2026 (PYSEC-2026-3712 / BIT-airflow-2026-68970).
+- **Spring AI — CVE-2026-59361** — vulnerabilidade aceita e CVE formalmente pré-atribuído pela equipe VMware / Spring Security; divulgação pública e patch em andamento (sob embargo).
 - **Apache Hop** — vulnerabilidade aceita pela equipe de segurança; divulgação pública ainda pendente.
-- **VMware / Spring** — vulnerabilidade aceita pela equipe de segurança; divulgação pública ainda pendente.
 - **Docker/BuildKit** — vulnerabilidade confirmada pela equipe de segurança da Docker; divulgação pública ainda pendente.
-- **Kyverno** — vulnerabilidade confirmada pela equipe de segurança; divulgação pública ainda pendente.
+- **Kyverno** — vulnerabilidade confirmada pela equipe de segurança do Kyverno; divulgação pública ainda pendente.
 - **Containerd** — vulnerabilidade aceita pela equipe de segurança; divulgação pública ainda pendente.
 
 <div align="center">
