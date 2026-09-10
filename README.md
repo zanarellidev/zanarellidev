@@ -19,6 +19,8 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 
 **Pull requests mergeados**
 
+- **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)**
+  - [PR #15679](https://github.com/open-telemetry/opentelemetry-collector/pull/15679) — validação mais estrita de IDs de feature gates, rejeitando segmentos vazios causados por pontos no início, no fim ou consecutivos.
 - **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)**
   - [PR #8962](https://github.com/open-policy-agent/opa/pull/8962) — correção de reuso de buffer na análise de segurança do AST (`reorderBodyForSafety`), impedindo que expressões de igualdade herdem variáveis não aterradas e gerem resultados vazios em compreensões ([#8302](https://github.com/open-policy-agent/opa/issues/8302)).
 - **[Istio](https://github.com/istio/istio)**
@@ -55,13 +57,13 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 - **[Java Design Patterns](https://github.com/iluwatar/java-design-patterns)**
   - [PR #3583](https://github.com/iluwatar/java-design-patterns/pull/3583) — localização e tradução para português (pt-BR) dos padrões `polling-publisher`, `money` e `delegation`.
 
-**CVEs confirmadas**
+**CVEs e vulnerabilidades confirmadas**
 
 - **[Apache Airflow — CVE-2026-68970](https://www.cve.org/CVERecord?id=CVE-2026-68970)** — vazamento de segredos em Variables do tipo lista, sem mascaramento nos logs de task. Publicada em 12/08/2026 (PYSEC-2026-3712 / BIT-airflow-2026-68970).
 - **Spring AI — CVE-2026-59361** — vulnerabilidade aceita e CVE formalmente pré-atribuído pela equipe VMware / Spring Security; divulgação pública e patch em andamento (sob embargo).
 - **Apache Hop** — vulnerabilidade aceita pela equipe de segurança; divulgação pública ainda pendente.
 - **Docker/BuildKit** — vulnerabilidade confirmada pela equipe de segurança da Docker; divulgação pública ainda pendente.
-- **Kyverno** — vulnerabilidade confirmada pela equipe de segurança do Kyverno; divulgação pública ainda pendente.
+- **[Kyverno — GHSA-5cjf-wwfg-pj4c](https://github.com/kyverno/kyverno/security/advisories/GHSA-5cjf-wwfg-pj4c)** — bypass de verificação de assinatura de imagens por aplicação incorreta do escopo de `PolicyException`; severidade alta (CVSS 7,7), corrigido no Kyverno 1.19.1. Crédito oficial como reporter.
 - **Containerd** — vulnerabilidade aceita pela equipe de segurança; divulgação pública ainda pendente.
 
 <div align="center">

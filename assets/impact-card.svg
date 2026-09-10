@@ -40,9 +40,9 @@
   <!-- Column 1: Upstream Merges -->
   <g transform="translate(30, 0)">
     <text x="0" y="44" fill="#8b9bb4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="0.1em" text-transform="uppercase">UPSTREAM CONTRIBUTIONS</text>
-    <text x="0" y="98" fill="url(#cyanGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.03em">14+</text>
+    <text x="0" y="98" fill="url(#cyanGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.03em">20</text>
     <text x="0" y="124" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">PRs em Produção</text>
-    <text x="0" y="144" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">OPA · K8s · Istio · Hop · Prometheus</text>
+    <text x="0" y="144" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">OpenTelemetry · OPA · K8s · Istio · Hop</text>
   </g>
 
   <!-- Column 2: Security & CVEs -->
