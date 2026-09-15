@@ -19,6 +19,8 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 
 **Pull requests mergeados**
 
+- **[Spring Session](https://github.com/spring-projects/spring-session)**
+  - [PR #3884](https://github.com/spring-projects/spring-session/pull/3884) — anotação de nulabilidade em `DefaultCookieSerializer.setCookiePath`, reforçando a segurança de tipos e a integração com ferramentas de análise estática.
 - **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)**
   - [PR #15679](https://github.com/open-telemetry/opentelemetry-collector/pull/15679) — validação mais estrita de IDs de feature gates, rejeitando segmentos vazios causados por pontos no início, no fim ou consecutivos.
 - **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)**
