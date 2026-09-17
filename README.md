@@ -61,6 +61,7 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 
 **CVEs e vulnerabilidades confirmadas**
 
+- **[HashiCorp Consul — CVE-2026-87090](https://discuss.hashicorp.com/t/hcsec-2026-34-consul-vulnerable-to-an-authorization-bypass-in-the-catalog-node-write-path/77736)** — bypass de autorização no caminho de escrita do catálogo que pode permitir a exclusão do registro de outro nó e a tomada de sua identidade. CVSS 8,3 (Alta); publicada em 10/09/2026 e corrigida no Consul 2.0.4 e no Consul Enterprise 1.21.18 / 1.22.12 / 2.0.4. Crédito oficial como reporter.
 - **[Apache Airflow — CVE-2026-68970](https://www.cve.org/CVERecord?id=CVE-2026-68970)** — vazamento de segredos em Variables do tipo lista, sem mascaramento nos logs de task. Publicada em 12/08/2026 (PYSEC-2026-3712 / BIT-airflow-2026-68970).
 - **Spring AI — CVE-2026-59361** — vulnerabilidade aceita e CVE formalmente pré-atribuído pela equipe VMware / Spring Security; divulgação pública e patch em andamento (sob embargo).
 - **Apache Hop** — vulnerabilidade aceita pela equipe de segurança; divulgação pública ainda pendente.
