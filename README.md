@@ -68,7 +68,6 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 - **Apache Hop** — vulnerabilidade aceita pela equipe de segurança; divulgação pública ainda pendente.
 - **Docker/BuildKit** — vulnerabilidade confirmada pela equipe de segurança da Docker; divulgação pública ainda pendente.
 - **[Kyverno — GHSA-5cjf-wwfg-pj4c](https://github.com/kyverno/kyverno/security/advisories/GHSA-5cjf-wwfg-pj4c)** — bypass de verificação de assinatura de imagens por aplicação incorreta do escopo de `PolicyException`; severidade alta (CVSS 7,7), corrigido no Kyverno 1.19.1. Crédito oficial como reporter.
-- **Containerd** — vulnerabilidade aceita pela equipe de segurança; divulgação pública ainda pendente.
 
 <div align="center">
 <img src="./assets/contributions-velocity.svg" width="100%" alt="Evolução e Curva de Contribuições Open Source e CVEs" />
