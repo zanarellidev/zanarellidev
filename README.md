@@ -19,6 +19,8 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 
 **Pull requests mergeados**
 
+- **[KEDA (Kubernetes Event-driven Autoscaling)](https://github.com/kedacore/keda)**
+  - [PR #8126](https://github.com/kedacore/keda/pull/8126) — reconstrução do pool de certificados CA durante rotação de credenciais mTLS no Metrics Service, eliminando race condition de memória e vazamento concorrente de goroutines/CAs antigos.
 - **[Spring Session](https://github.com/spring-projects/spring-session)**
   - [PR #3884](https://github.com/spring-projects/spring-session/pull/3884) — correção de nulabilidade no serializador de cookies, alinhando a API à análise estática.
 - **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)**
