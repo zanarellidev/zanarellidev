@@ -70,6 +70,7 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 - **Apache Hop** — vulnerabilidade aceita pela equipe de segurança; divulgação pública ainda pendente.
 - **Docker/BuildKit** — vulnerabilidade confirmada pela equipe de segurança da Docker; divulgação pública ainda pendente.
 - **[Kyverno — GHSA-5cjf-wwfg-pj4c](https://github.com/kyverno/kyverno/security/advisories/GHSA-5cjf-wwfg-pj4c)** — bypass de verificação de assinatura de imagens por aplicação incorreta do escopo de `PolicyException`; severidade alta (CVSS 7,7), corrigido no Kyverno 1.19.1. Crédito oficial como reporter.
+- **[Istio — bypass de isolamento `serviceEntryVisibility`](https://istio.io/latest/news/releases/1.31.x/announcing-1.31.1/)** — o label `istio.io/use-waypoint-canary` ignorava o isolamento NAMESPACE de ServiceEntry, permitindo rotear a fatia canary do tráfego por um waypoint de outro namespace. Corrigido no Istio 1.31.1 (set/2026). Crédito oficial como reporter nas release notes.
 
 <div align="center">
 <img src="./assets/contributions-velocity.svg" width="100%" alt="Evolução e Curva de Contribuições Open Source e CVEs" />
