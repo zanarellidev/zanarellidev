@@ -69,7 +69,7 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 - **Spring AI — CVE-2026-59361** — vulnerabilidade aceita e CVE formalmente pré-atribuído pela equipe VMware / Spring Security; divulgação pública e patch em andamento (sob embargo).
 - **Apache Hop** — vulnerabilidade aceita pela equipe de segurança; divulgação pública ainda pendente.
 - **Docker/BuildKit** — vulnerabilidade confirmada pela equipe de segurança da Docker; divulgação pública ainda pendente.
-- **[Kyverno — GHSA-5cjf-wwfg-pj4c](https://github.com/kyverno/kyverno/security/advisories/GHSA-5cjf-wwfg-pj4c)** — bypass de verificação de assinatura de imagens por aplicação incorreta do escopo de `PolicyException`; severidade alta (CVSS 7,7), corrigido no Kyverno 1.19.1. Crédito oficial como reporter.
+- **[Kyverno — CVE-2026-100704](https://www.cve.org/CVERecord?id=CVE-2026-100704)** ([GHSA-5cjf-wwfg-pj4c](https://github.com/kyverno/kyverno/security/advisories/GHSA-5cjf-wwfg-pj4c)) — bypass de verificação de assinatura de imagens por aplicação incorreta do escopo de `PolicyException`; severidade alta (CVSS 8,3 / 7,7), corrigido no Kyverno 1.19.1. Publicada em 26/09/2026 com crédito oficial a `@zanarellidev`.
 - **[Istio — bypass de isolamento `serviceEntryVisibility`](https://istio.io/latest/news/releases/1.31.x/announcing-1.31.1/)** — o label `istio.io/use-waypoint-canary` ignorava o isolamento NAMESPACE de ServiceEntry, permitindo rotear a fatia canary do tráfego por um waypoint de outro namespace. Corrigido no Istio 1.31.1 (set/2026). Crédito oficial como reporter nas release notes.
 
 <div align="center">
