@@ -25,6 +25,8 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
   - [PR #3884](https://github.com/spring-projects/spring-session/pull/3884) — correção de nulabilidade no serializador de cookies, alinhando a API à análise estática.
 - **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)**
   - [PR #15679](https://github.com/open-telemetry/opentelemetry-collector/pull/15679) — validação mais estrita de IDs de feature gates, rejeitando segmentos vazios causados por pontos no início, no fim ou consecutivos.
+- **[OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)**
+  - [PR #50124](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/50124) — statsdreceiver: fechamento da conexão TCP na desconexão do cliente e limite de tamanho para linhas sem terminador.
 - **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)**
   - [PR #8962](https://github.com/open-policy-agent/opa/pull/8962) — correção de reuso de buffer na análise de segurança do AST (`reorderBodyForSafety`), impedindo que expressões de igualdade herdem variáveis não aterradas e gerem resultados vazios em compreensões ([#8302](https://github.com/open-policy-agent/opa/issues/8302)).
 - **[Istio](https://github.com/istio/istio)**
