@@ -60,6 +60,7 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 - **[Apache Kyuubi](https://github.com/apache/kyuubi)**
   - [Commit 3bc223d](https://github.com/apache/kyuubi/commit/3bc223dbec2ace1692ba22769404c9dd329981ed) — definição de regex padrão para mascaramento de dados sensíveis na configuração de redaction da API do servidor.
 - **[Flux](https://github.com/fluxcd/notification-controller)**
+  - [PR #1357](https://github.com/fluxcd/notification-controller/pull/1357) (notification-controller) — uso do `commitStatusExpr` configurado como `Name` nos status de commit do Bitbucket Cloud e Server, alinhando com GitHub/GitLab/Azure DevOps.
   - [PR #1358](https://github.com/fluxcd/notification-controller/pull/1358) (notification-controller) — cobertura de teste para respostas 2xx do webhook, incluindo 204.
 - **[Java Design Patterns](https://github.com/iluwatar/java-design-patterns)**
   - [PR #3583](https://github.com/iluwatar/java-design-patterns/pull/3583) — localização e tradução para português (pt-BR) dos padrões `polling-publisher`, `money` e `delegation`.
