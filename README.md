@@ -15,13 +15,10 @@ Engenheiro de software com mais de 10 anos criando e operando aplicações empre
 
 ## Experiência Profissional
 
-- **Engineering Brasil** (mai 2026 - atual, Grande São Paulo) - Desenvolvedor Especialista
-- **Porto** (mar 2026 - mai 2026, São Paulo, Brasil) - Analista de Engenharia de Software Sr
-- **Claro Brasil** (nov 2022 - mar 2026, São Paulo, Brasil) - Líder Técnico - Especialista
-- **Spread Tecnologia** (nov 2022 - mar 2026, São Paulo, Brasil) - Líder de Serviços de Tecnologia
-- **Evertec (Sinqia)** (set 2022 - nov 2022, São Paulo, Brasil) - Desenvolvedor Pleno
-- **DXC Technology** (jul 2018 - ago 2022, Grande São Paulo) - Analista de Sistemas
-- **Invillia** (abr 2018 - jul 2018) - Desenvolvedor
+- **Engineering Group** (mai 2026 - atual) - Software Development Senior (Tempo integral)
+- **Claro Brasil** (nov 2022 - abr 2026) - Tech Leader (Contrato indireto)
+- **DXC Technology** (mai 2018 - out 2022) - Software Engineer (Tempo integral)
+- **Prefeitura Municipal de Araraquara** (mar 2014 - abr 2018) - Field Operations (Contrato indireto)
 
 ## Contribuições em open source
 
