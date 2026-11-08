@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 320" width="100%" height="320" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 335" width="100%" height="335" fill="none">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="cardBg" x1="0" y1="0" x2="850" y2="320" gradientUnits="userSpaceOnUse">
+    <linearGradient id="cardBg" x1="0" y1="0" x2="850" y2="335" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#080b16" />
       <stop offset="50%" stop-color="#0d1424" />
       <stop offset="100%" stop-color="#080b16" />
@@ -43,7 +43,7 @@
   </defs>
 
   <!-- Main Card Container -->
-  <rect x="10" y="10" width="830" height="300" rx="16" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.2" filter="url(#cardShadow)" />
+  <rect x="10" y="10" width="830" height="315" rx="16" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.2" filter="url(#cardShadow)" />
   
   <!-- Glowing Top Accent Border -->
   <path d="M 26 10 L 824 10" stroke="url(#neonGlow)" stroke-width="2.5" stroke-linecap="round" />
@@ -157,11 +157,13 @@
   </g>
 
   <!-- Bottom Legend Bar -->
-  <g transform="translate(35, 270)">
-    <rect x="0" y="0" width="780" height="26" rx="6" fill="#0c1322" stroke="#1e293b" stroke-width="1" />
-    <text x="390" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" text-anchor="middle" fill="#94a3b8">
-      <tspan fill="#4dd6e8">●</tspan> 28 Merges Upstream (OpenTelemetry · OPA · Istio · K8s · Hop · go-jose · KEDA)
-      <tspan dx="20" fill="#ec5a76">●</tspan> 6 CVEs Públicas &amp; 9 Findings Confirmados (DolphinScheduler · Consul · Airflow · Kyverno · Istio · Spring)
+  <g transform="translate(35, 266)">
+    <rect x="0" y="0" width="780" height="44" rx="8" fill="#0c1322" stroke="#1e293b" stroke-width="1" />
+    <text x="390" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" text-anchor="middle" fill="#94a3b8">
+      <tspan fill="#4dd6e8" font-weight="700">● 28 Merges Upstream:</tspan> OpenTelemetry · OPA · Istio · Kubernetes · KEDA · Hop · go-jose · Pika
+    </text>
+    <text x="390" y="33" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" text-anchor="middle" fill="#94a3b8">
+      <tspan fill="#ec5a76" font-weight="700">● Segurança (6 CVEs &amp; 9 Achados):</tspan> DolphinScheduler · Consul · Airflow · Kyverno · Istio · Spring AI
     </text>
   </g>
 </svg>
