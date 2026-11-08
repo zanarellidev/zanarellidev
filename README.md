@@ -84,15 +84,7 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 - Docker/BuildKit: vulnerabilidade confirmada pela equipe de segurança da Docker; divulgação pública ainda pendente.
 
 <div align="center">
-
-### Gráfico de Contribuições
-
-<img src="https://ghchart.rshah.org/4dd6e8/zanarellidev" width="100%" alt="Gráfico de Contribuições de zanarellidev no GitHub" />
-
-### Evolução e Impacto em Open Source & CVEs
-
 <img src="./assets/contributions-velocity.svg" width="100%" alt="Evolução e Curva de Contribuições Open Source e CVEs" />
-
 </div>
 
 ## Vamos trocar ideias?
