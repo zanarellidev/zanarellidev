@@ -13,13 +13,6 @@
 
 Engenheiro de software com mais de 10 anos criando e operando aplicações empresariais críticas. Combino arquitetura cloud-native, segurança, observabilidade e liderança técnica.
 
-## Experiência Profissional
-
-- **Engineering Group** (mai 2026 - atual) - Software Development Senior (Tempo integral)
-- **Claro Brasil** (nov 2022 - abr 2026) - Tech Leader (Contrato indireto)
-- **DXC Technology** (mai 2018 - out 2022) - Software Engineer (Tempo integral)
-- **Prefeitura Municipal de Araraquara** (mar 2014 - abr 2018) - Field Operations (Contrato indireto)
-
 ## Contribuições em open source
 
 Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestrutura e plataformas distribuídas.
@@ -45,6 +38,10 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
   - [ExternalDNS · PR #6644](https://github.com/kubernetes-sigs/external-dns/pull/6644) - reordenação da resolução de hostnames em rotas Gateway API: anotações agora são coletadas antes da avaliação do template de FQDN.
   - [ExternalDNS · PR #6694](https://github.com/kubernetes-sigs/external-dns/pull/6694) - adiciona timeout e cancelamento por contexto às chamadas da API PowerDNS.
   - [Cluster API · PR #14022](https://github.com/kubernetes-sigs/cluster-api/pull/14022) - esclarecimento na documentação sobre a semântica de full-replace em patches JSON de labels/annotations.
+- **[go-jose](https://github.com/go-jose/go-jose)**
+  - [PR #279](https://github.com/go-jose/go-jose/pull/279) - validação em JWK retornando `ErrUnsupportedEllipticCurve` para curvas elípticas não suportadas/desconhecidas ([#273](https://github.com/go-jose/go-jose/issues/273)).
+- **[Kyverno](https://github.com/kyverno/website)**
+  - [PR #2118](https://github.com/kyverno/website/pull/2118) (docs) - correção de sintaxe de funções CEL e resolução do attestor no exemplo oficial de `NamespacedImageValidatingPolicy` ([#2094](https://github.com/kyverno/website/issues/2094), [#2095](https://github.com/kyverno/website/issues/2095)).
 - **[klauspost/compress](https://github.com/klauspost/compress)**
   - [PR #1182](https://github.com/klauspost/compress/pull/1182) - correção de race condition de escrita concorrente em dicionário treinado compartilhado no encoder zstd.
   - [PR #1183](https://github.com/klauspost/compress/pull/1183) - integração do GitHub Action do OpenSSF Scorecard para auditoria contínua de segurança na supply chain.
@@ -87,7 +84,15 @@ Pull requests mergeados e vulnerabilidades confirmadas em projetos de infraestru
 - Docker/BuildKit: vulnerabilidade confirmada pela equipe de segurança da Docker; divulgação pública ainda pendente.
 
 <div align="center">
+
+### Gráfico de Contribuições
+
+<img src="https://ghchart.rshah.org/4dd6e8/zanarellidev" width="100%" alt="Gráfico de Contribuições de zanarellidev no GitHub" />
+
+### Evolução e Impacto em Open Source & CVEs
+
 <img src="./assets/contributions-velocity.svg" width="100%" alt="Evolução e Curva de Contribuições Open Source e CVEs" />
+
 </div>
 
 ## Vamos trocar ideias?
